@@ -1,7 +1,31 @@
+:root {
+  --secondary-color: #ff6666;
+  --sucess-color: #4DD637;
+  --danger-color: #e5d68a;
+}
+body {
+  background-color: var(--danger-color);
+}
 .container {
   display: flex;
   flex-direction: column;
-  /* align-content: center;  */
+  margin: auto;
+  width: 50vw;
+}
 
-   width: 50vw; 
+.btn {
+  margin-top: 1.4rem;
+  background-color: #8d3daf;
+  border-radius: 3rem;
+  padding: 0.5em;
+  width: 40%;
+  margin-left: 7rem;
+  color: #120e43;
+}
+#error-message {
+  display: none;
+  background-color: var(--secondary-color);
+}
+.change-table{
+  background-color:var(--sucess-color) ;
 }
